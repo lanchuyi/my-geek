@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <keep-alive include="HomePage">
     <RouterView class="body" />
+  </keep-alive>
     <RouterView class="footer" name="tabbar" />
+
   </div>
 </template>
 <style lang="less" scoped>
